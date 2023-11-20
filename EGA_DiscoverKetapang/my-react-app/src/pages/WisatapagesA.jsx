@@ -153,8 +153,8 @@ const WisatapagesA = () => {
             <div
               style={{
                 fontFamily: "Tillana",
-                marginLeft: "130px",
                 marginTop: "100px",
+                marginLeft: "33rem",
               }}
               className="text-light text-center"
             >
@@ -166,11 +166,9 @@ const WisatapagesA = () => {
                 Wisata Alam
                 <hr
                   className="text-light"
-                  style={{ borderWidth: "2px", width: "200px" }}
+                  style={{ borderWidth: "2px", width: "200px"  }}
                 />
               </h2>
-
-              {/* <p>kenang seumur hidup."</p> */}
             </div>
           </div>
         </div>
@@ -193,7 +191,9 @@ const WisatapagesA = () => {
             className="d-flex align-items-center justify-content-around"
           >
             <div className="text-light text-end">
-            <img className="img-fluid" src={num1} alt="Number 1" />
+            <img className="img-fluid" 
+            style={{marginRight: "29rem"}}
+            src={num1} alt="Number 1" />
 
               <div className="d-flex align-items-end justify-content-between">
                 <h2 style={{ textAlign: "right" }}>Bukit Batu Daya</h2>
@@ -206,39 +206,13 @@ const WisatapagesA = () => {
                 menjadi tujuan favorit bagi para pengunjung.
               </p>
               <Link to="/detailwisata1">
-                <button className="rounded-2 btn-more">Selengkapnya</button>
+                <button className="rounded-2 btn-more"
+                style={{marginRight: "28rem"}}
+                  >Selengkapnya</button>
               </Link>
             </div>
             <div>
               <div className="user d-flex gap-4 ">
-                {/* <Link
-                  to="/datapemandu"
-                  className="d-flex text-decoration-none text-white gap-2 "
-                >
-                  <img
-                    src={iconuser}
-                    alt="user"
-                    style={{
-                      width: 20,
-                      height: 23,
-                    }}
-                  />
-                  <p>Cari pemandu</p>
-                </Link>
-                <Link
-                  to="https://maps.app.goo.gl/W3ckT37NfRjh7rdU7"
-                  className="d-flex text-decoration-none text-white gap-2 "
-                >
-                  <img
-                    src={iconmap}
-                    alt="map"
-                    style={{
-                      width: 20,
-                      height: 20,
-                    }}
-                  />
-                  <p>Maps</p>
-                </Link> */}
               </div>
               <img className="img-fluids" src={Picture1} alt="Picture 1" />
             </div>
@@ -250,7 +224,9 @@ const WisatapagesA = () => {
             className="d-flex align-items-center justify-content-around flex-row-reverse"
           >
             <div className="text-light text-end">
-            <img className="img-fluid" src={num2} alt="Number 2" />
+            <img className="img-fluid" 
+            style={{marginRight: "29rem"}}
+            src={num2} alt="Number 2" />
               <div className="d-flex align-items-end justify-content-between">
                 <h2 style={{ textAlign: "right" }}>Pulai Pelapis</h2>
               </div>
@@ -264,7 +240,9 @@ const WisatapagesA = () => {
                 nya.
               </p>
               <Link to="/detailwisata2">
-                <button className="rounded-2 btn-more">Selengkapnya</button>
+                <button className="rounded-2 btn-more"
+                style={{marginRight: "3rem"}}
+                >Selengkapnya</button>
               </Link>
             </div>
             <div>
@@ -278,7 +256,9 @@ const WisatapagesA = () => {
             className="d-flex align-items-center justify-content-around"
           >
             <div className="text-light text-end">
-            <img className="img-fluid" src={num3} alt="Number 3" />
+            <img className="img-fluid" 
+            style={{marginRight: "29rem"}}
+            src={num3} alt="Number 3" />
               <div className="d-flex align-items-end justify-content-between">
                 <h2 style={{ textAlign: "right" }}>Pantai Tanjung Belanda</h2>
               </div>
@@ -292,7 +272,9 @@ const WisatapagesA = () => {
                 hari libur.
               </p>
               <Link to="/detailwisata3">
-                <button className="rounded-2 btn-more">Selengkapnya</button>
+                <button className="rounded-2 btn-more"
+                style={{marginRight: "30rem"}}
+                >Selengkapnya</button>
               </Link>
             </div>
             <div>

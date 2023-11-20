@@ -3,6 +3,7 @@ import Navbarwisata from "../Component/Fragments/Navbarwisata";
 import bgimage from "../assets/img/wisata/wisataS/Background.png";
 import bgimage2 from "../assets/img/wisata/wisataS/Background2.png";
 import WisataScard from "../Component/Fragments/WisataScard";
+import WisataScard2 from "../Component/Fragments/WisataScard2";
 import PPicture from "../assets/img/wisata/wisataS/people2.png";
 import React from "react";
 import Footercomponent from "../Component/Fragments/Footercomponent";
@@ -86,6 +87,20 @@ const WisatapagesS = () => {
         >
           <WisataScard />
         </div>
+        <div
+          className="bg-image img-fluid"
+          style={{
+            backgroundColor: "light",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center center",
+            height: "100vh",
+            fontFamily: "Times New Roman",
+          }}
+        >
+          <WisataScard2 />
+        </div>
+
         <div className="d-flex justify-content-center align-items-center">
           <div
             style={{

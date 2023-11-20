@@ -1,0 +1,24 @@
+
+.card-box {
+    /* background: linear-gradient(to bottom, #08496F 50%, #ffffff); */
+    border-radius: 30px;
+}
+
+.flex-card-box2 {
+  justify-content: start;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 6rem;
+}
+
+.text-box img {
+    margin-bottom: 2rem;
+}
+
+.btn-more {
+    background-color: #2C8BC4;
+}
+
+
+/* Add additional styling for the button or any other elements if needed */

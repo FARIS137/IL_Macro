@@ -43,7 +43,7 @@ const Homepages = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <div div className="Home">
+    <div className="Home">
       <div>
         <div className=" bg-secondary h-vh-100">
           <div
@@ -124,7 +124,7 @@ const Homepages = () => {
               className=" toppemandu min-vh-100 text-center "
             >
               <h1 className=" text-white  fw-bold fs-4 mb-4">
-              Paket Liburan di Ketapang
+              Paket Wisata 
               </h1>
               <div
                 className={`animate-in-7 ${

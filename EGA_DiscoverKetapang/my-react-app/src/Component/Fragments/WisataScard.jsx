@@ -7,7 +7,7 @@ const CenteredCard = () => {
   return (
     <div
       className="d-flex justify-content-center align-items-center "
-      style={{ height: "35vh" }}
+      style={{ height: "37vh" }}
     >
       <Card className="card-box">
         <div className="text-space">

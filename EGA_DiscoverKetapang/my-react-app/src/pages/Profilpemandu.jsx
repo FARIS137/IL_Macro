@@ -9,7 +9,7 @@ import Icontwiter from "/images/GambarFooter/icontwiter.png";
 import back from "../assets/img/scrollleft.png";
 import Button from "../Component/Elements/Buttons/Button";
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { Container, Carousel } from "react-bootstrap";
 
 const Profilpemandu = () => {

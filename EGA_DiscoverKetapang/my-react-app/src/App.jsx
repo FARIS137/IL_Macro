@@ -16,6 +16,9 @@ import Profilpemandu2 from "./pages/Profilpemandu2";
 import Profilpemandu3 from "./pages/Profilpemandu3";
 import Artikelpages from "./pages/Cardartikel";
 import Testimonipages from "./pages/Testimonipages";
+import Paketwisata1 from "./pages/Paketwisata1";
+import Paketwisata2 from "./pages/Paketwisata2";
+import Paketwisata3 from "./pages/Paketwisata3";
 function App() {
   return (
     <>
@@ -38,6 +41,9 @@ function App() {
         <Route path="/artikel" Component={Artikelpages} />
         <Route path="/edit" Component={Editakunpages} />
         <Route path="/akunsaya" Component={Akunsayapages} />
+        <Route path="/paketwisata1"  Component={Paketwisata1} />
+        <Route path="/paketwisata2"  Component={Paketwisata2} />
+        <Route path="/paketwisata3"  Component={Paketwisata3} />
       </Routes>
       {/* <Footercomponent /> */}
     </>
